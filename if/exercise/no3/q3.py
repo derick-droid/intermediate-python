@@ -13,9 +13,25 @@ below absolute zero.
 
 
 def three():
-    temp = int(input("Enter your temperature in celsius: "))
+    temp = float(input("Enter your temperature in celsius: "))
     if temp < -273.15:
         print("temperature is invalid because it is below absolute zero")
     elif temp == -273.15:
         print("temperature is absolute 0.")
-    elif temp
+    elif temp == -273.15 or temp < 0:
+        print("Temperature is below freezing point")
+
+    elif temp == 0:
+        print("Temperature is at freezing point")
+
+    elif temp == 0 or temp <= 100:
+        print("Temperature is at normal range")
+
+    elif temp == 100:
+        print("Temperature is at Boiling point")
+
+    elif temp > 100:
+        print("Temperature is above boiling point")
+
+
+three()
