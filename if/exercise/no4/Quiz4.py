@@ -18,4 +18,5 @@ def credits():
     elif credo >= 84:
         print("The student is senior")
 
+
 credits()
