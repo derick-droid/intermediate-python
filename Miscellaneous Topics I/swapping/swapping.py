@@ -25,6 +25,6 @@ def swap1():
     print(x)
     print(y)
 
-    
+
 swap1()
 
