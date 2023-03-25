@@ -6,7 +6,7 @@ miscellaneous topics in python
 #  count
 def counting():
     count = 0
-    for i in range(10):
+    for i in range(4):
         num = int(input("Enter number: "))
         if num > 10:
             count = count + 1
@@ -38,3 +38,23 @@ def greater():
 
 
 greater()
+
+""""
+This program counts how many of the squares from 12
+to 1002
+end in a 4
+"""
+
+
+def count3():
+    count3s = 0
+    for x in range(1, 101):
+        if (x ** 2) % 10 == 4:
+            count3s = count3s + 1
+
+    print(count3s)
+
+
+count3()
+
+
