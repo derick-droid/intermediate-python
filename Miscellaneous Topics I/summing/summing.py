@@ -12,6 +12,29 @@ def sum_up():
         s = s + i
     print(f"the sum of number are {s} ")
 
-    
+
 sum_up()
+
+"""
+Example 2 This program that will ask the user for 10 numbers and then computes their average.
+"""
+
+
+def example_2():
+    s1 = 0
+    average = 0
+    for z in range(10):
+        num = int(input("Enter number: "))
+        s1 = s1 + z
+        average = s1 / 10
+
+    print(average)
+
+
+example_2()
+
+
+
+
+
 
