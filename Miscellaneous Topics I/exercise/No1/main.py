@@ -11,7 +11,7 @@ def one():
             count = count + 1
 
     print(f"There are {count} numbers")
-    
+
 
 one()
 
