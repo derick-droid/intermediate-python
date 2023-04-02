@@ -11,16 +11,17 @@ that are less than 10000.
 
 
 def six():
-    sum = 0
-    fig = []
-    for i in range(1, 10):
-        for y in range(1, i):
-            if (i % y) == 0:
-                sum = sum + y
-                if y == sum:
-                    fig.append(y)
+    for i in range(1, 10000):
 
-    print(fig)
+        summ = 0
+
+        for m in range(i):
+            if i % (m + 1) == 0:
+                summ = summ + (m + 1)
+            g = summ - i
+
+        if g == i:
+            print(g)
 
 
 six()
