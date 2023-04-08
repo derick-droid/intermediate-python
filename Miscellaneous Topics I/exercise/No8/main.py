@@ -1,16 +1,23 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+"""
+Write a program that swaps the values of three variables x, y, and z, so that x gets the value
+of y, y gets the value of z, and z gets the value of x.
+"""
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def eight():
+    x = 1
+    y = 2
+    z = 3
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    hold = x
+    x = y
+    y = z
+    z = hold
+
+    print(x, y, z)
+
+
+eight()
+
+
+
