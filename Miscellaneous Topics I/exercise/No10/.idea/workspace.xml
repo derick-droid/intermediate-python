@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="820b85b5-0991-48b4-91d5-947d95b4d79a" name="Changes" comment="" />
+    <list default="true" id="df3c9d05-e544-447e-ae74-432b2dd6c2da" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../No8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../No8/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,20 +15,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="2O0OwAeFrVAW1IE41T57pjHrC8h" />
+  <component name="ProjectId" id="2O98DgqwxoCnSl7Bv09aCVElLHn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="No8" />
+      <module name="No10" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -50,11 +51,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="820b85b5-0991-48b4-91d5-947d95b4d79a" name="Changes" comment="" />
-      <created>1680694268350</created>
+      <changelist id="df3c9d05-e544-447e-ae74-432b2dd6c2da" name="Changes" comment="" />
+      <created>1680961318761</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680694268350</updated>
+      <updated>1680961318761</updated>
     </task>
     <servers />
   </component>
