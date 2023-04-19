@@ -14,7 +14,7 @@ def twelve():
     guess = random.randint(1, 10)
     for i in range(5):
         num = int(input("Enter a random number between (1, 10): "))
-        if (num < 1 or  num > 10):
+        if (num < 1) or (num > 10):
             print("Invalid input")
         elif num == guess:
             score = score + 10
@@ -24,8 +24,6 @@ def twelve():
         print(f"You have lost the game, your score is {score}")
     else:
         print(f"You have a positive score of {score}")
-
-
 
 
 twelve()
