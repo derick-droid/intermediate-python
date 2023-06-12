@@ -11,7 +11,7 @@ def the_k():
     word = input("Enter a word: ")
     word = word.replace(word[:], " ")
     print(word)
-    
+
 
 the_k()
 

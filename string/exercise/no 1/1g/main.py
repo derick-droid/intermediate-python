@@ -6,7 +6,7 @@ following:
 """
 
 
-def theg():
+def the_g():
     word = input("Enter a string: ")
     if len(word) >= 7:
         print(word[7])
@@ -14,4 +14,4 @@ def theg():
         print("The character is not available")
 
 
-theg()
+the_g()
