@@ -7,7 +7,19 @@ the user to enter a formula and prints out whether the formula has the same numb
 
 def three():
     formula = input("Enter a formula: ")
-    if "(" and ")" in formula:
-        print("All paranthesis are available")
+    count = 0
+    for item in formula:
+        if item == "(":
+            count += 1
+        elif item == ")":
+            count -= 1
+
+    if count == 1:
+        print("The formula has no all paranthesis ")
+    elif count == 0:
+        print("the formula has all paranthesis")
+
+
+
 
 three()
