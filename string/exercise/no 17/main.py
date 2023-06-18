@@ -25,9 +25,6 @@ Inside the inner loop, we calculate the index of the letter by adding the outer 
         print(line)
 
 
-
-
-
 seventeen()
 
 
