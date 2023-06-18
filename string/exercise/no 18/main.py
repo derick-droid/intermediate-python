@@ -26,3 +26,17 @@ def eighteen():
 
 
 eighteen()
+
+
+# b
+def eighteenII():
+    word = input("Enter a word: ")
+    letter = input("Enter a letter: ")
+    count = 0
+    for item in word:
+        if item == letter:
+            count += 1
+
+    print(count)
+
+eighteenII()
