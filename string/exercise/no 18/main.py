@@ -40,3 +40,14 @@ def eighteenII():
     print(count)
 
 eighteenII()
+
+
+def eighteenIII():
+    word = input("Enter a word: ")
+    letter = input("Enter a letter: ")
+    for item in range(len(word)):
+       if word[item] == letter:
+           print(item)
+
+
+eighteenIII()
