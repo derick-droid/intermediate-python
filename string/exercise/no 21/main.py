@@ -9,13 +9,13 @@ letters of that string.
 """
 
 from random import choice
-from random import  randint
+from random import randint
 
 
 def anagram():
     word = input("Enter a word : ")
     length = len(word)
-    number = randint(0, length)
+    number = randint(1, length)
     print(word[number] + word[number] + word[:number])
 
 
