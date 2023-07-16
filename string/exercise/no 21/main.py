@@ -8,17 +8,15 @@ letters of that string.
 
 """
 
-from random import choice
+
 from random import randint
 
+word = input('Enter a word: ')
+anagram = ''
+for letter in word:
+    position = randint(0, len(anagram))
+    before = anagram[:position]
+    after = anagram[position:]
+    anagram = before + letter + after
 
-def anagram():
-    word = input("Enter a word : ")
-    length = len(word)
-    number = randint(1, length)
-    print(word[number] + word[number] + word[:number])
-
-
-anagram()
-
-
+print(anagram)
