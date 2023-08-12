@@ -26,3 +26,15 @@ def twenty_two():
 
 twenty_two()
 
+
+def decrypt():
+    string = input('what is your message: ')
+    length = len(string)  # to get the length of the input
+    half_length = (length + 1) // 2  # half of the input
+    even = string[:half_length]  # even part
+    odd = string[half_length:]  # odd part
+
+    msg = ""
+
+
+decrypt()
