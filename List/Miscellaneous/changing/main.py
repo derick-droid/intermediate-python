@@ -9,7 +9,9 @@ each operation.
 
 
 def change():
+
     l = [4, 9, 0]
+
     l[0] = 100
 
     print(l)
@@ -21,4 +23,6 @@ def change():
     del l[:]
 
     print(l)
+
+
 change()
