@@ -1,0 +1,18 @@
+"""
+Write a program that asks the user to enter a list of integers. Do the following:
+(a) Print the total number of items in the list.
+
+"""
+
+
+def enter():
+
+    list = []
+    for num in range(15):
+        number = input("Enter interger: ")
+        list.append(number)
+
+    print(list)
+
+
+enter()
