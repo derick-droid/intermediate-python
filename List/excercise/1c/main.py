@@ -15,7 +15,7 @@ def enter():
         list.append(number)
 
     print(list)
-    print(list[-1])
+    print(list[: : -1])
 
 
 enter()
