@@ -19,15 +19,13 @@ def enter():
     print(list)
 
     for number in list:
-        if number == 5:
-            print(number)
+        if number == "5":
             available_five = available_five + 1
 
     if available_five == 0:
         print("NO")
     elif available_five >= 1:
         print("YES")
-    print(available_five)
 
 
 enter()
