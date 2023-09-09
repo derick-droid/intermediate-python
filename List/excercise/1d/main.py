@@ -13,13 +13,11 @@ def enter():
     list = []
     available_five = 0
     for num in range(5):
-        number = input("Enter integer: ")
+        number = int(input("Enter integer: "))
         list.append(number)
 
-    print(list)
-
     for number in list:
-        if number == "5":
+        if number == 5:
             available_five = available_five + 1
 
     if available_five == 0:
