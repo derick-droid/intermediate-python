@@ -19,7 +19,9 @@ def enter():
         number = int(input("Enter integer: "))
         list.append(number)
 
-    list = list.remove()
+    del list[0]
+    del list[-1]
+    print(list)
 
 enter()
 
