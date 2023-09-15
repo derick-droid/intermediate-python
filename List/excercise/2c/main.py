@@ -16,6 +16,9 @@ def two():
         new_number = random.randint(1, 100)
         list_value.append(new_number)
 
+    print(f"{max(list_value)} is the largest value in the list")
+    print(f"{min(list_value)} is the smallest value in the list ")
+
 
 two()
 
