@@ -20,7 +20,7 @@ def four():
 
     for item in list_value:
         if item > 10:
-        
+
             list_value[list_value.index(item)] = 10
 
     print(list_value)
