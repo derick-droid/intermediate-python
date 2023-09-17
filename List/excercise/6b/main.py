@@ -15,4 +15,3 @@ def six_b():
 
 
 six_b()
-    
