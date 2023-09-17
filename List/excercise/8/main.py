@@ -11,7 +11,7 @@ def eight():
         print("Please enter a number greater than 0")
 
     for item in range(1, number):
-        if number % item  == 0:
+        if number % item == 0:
             list_value.append(item)
 
     print(list_value)
