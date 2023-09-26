@@ -7,6 +7,7 @@ times and compute and print out the percentage of rolls that come out to be 2, 3
 
 """
 
+
 def nine():
     from random import randint
     dice_roll = []
@@ -20,4 +21,6 @@ def nine():
         dice_roll.append(first_dice_roll + second_dice_roll)
         sumi = sum(dice_roll)
     print(dice_roll, "Dice roll")
-    
+
+
+nine()
