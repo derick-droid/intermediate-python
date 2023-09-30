@@ -27,17 +27,18 @@ def fourteen():
     if integer > 6:
         print("The number of limit of the list")
 
-    inches = feet * 12
-    yards = feet * int(0.33333)
-    miles = feet * int(0.000189393939)
-    millimeters = feet * int(304.8)
-    centimeters = feet * int(30.48)
-    meters = feet * int(0.3048)
-    kilometers = feet * int(0.0003048)
+    else:
+        inches = feet * 12
+        yards = feet * int(0.33333)
+        miles = feet * int(0.000189393939)
+        millimeters = feet * int(304.8)
+        centimeters = feet * int(30.48)
+        meters = feet * int(0.3048)
+        kilometers = feet * int(0.0003048)
 
-    convert = [inches, yards, miles, millimeters, centimeters, meters, kilometers]
+        convert = [inches, yards, miles, millimeters, centimeters, meters, kilometers]
 
-    print(convert[integer])
+        print(convert[integer])
 
 
 fourteen()
