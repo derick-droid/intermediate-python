@@ -22,6 +22,7 @@ but for cryptographically safe random numbers, see Section 22.8.
 
 """
 
+
 def fifteen():
     from random import randint
     message = input("Enter a message: ")
@@ -46,5 +47,6 @@ def fifteen():
         i += 1
 
     print(''.join(secret_rev))
+
 
 fifteen()
