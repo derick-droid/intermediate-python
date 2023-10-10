@@ -10,7 +10,7 @@ from random import choice
 
 
 def choice_string():
-    s = "aqwrtyuioplkjhgfdsaxcvbnm"
+    s = "aqwrty"
     for i in range(1000):
         print(choice(s), end="")
 
