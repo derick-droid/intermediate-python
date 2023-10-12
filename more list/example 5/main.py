@@ -1,16 +1,22 @@
-# This is a sample Python script.
+"""
+Here we use shuffle divide a group of people into teams of two. Assume we are
+given a list called names.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+"""
+from random import shuffle
+names = ["denzel", "zebby", "don", "ajax", "dorn"]
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def five():
+    shuffle(names)
+    teams = []
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    for i in range(0, len(names), 2):
+        teams.append(names[i])
+
+    print(teams)
+
+
+five()
+
+
