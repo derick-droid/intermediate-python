@@ -1,7 +1,7 @@
 def word_list():
     M = ['one ', 'two ', 'three ', 'four ', 'five ', 'six ']
 
-    new_list = [letter[0] for letter in M if len(letter) >= 3]
+    new_list = [m[0] for m in M if len(m)==3]
 
     print(new_list)
 
