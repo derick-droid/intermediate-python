@@ -18,7 +18,7 @@ def dimen():
          [41, 42, 43, 44, 45],
          [46, 47, 48, 49, 50]]
     for r in range(10):
-        for c in range(10):
+        for c in range(5):
             print(L[r][c], end=" ")
     print()
 
