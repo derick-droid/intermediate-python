@@ -6,14 +6,18 @@ that counts how many entries in a 10 × 5 list are even.
 """
 
 L = []
+
+
 def netse():
     count = 0
     for r in range(10):
         for c in range(5):
-            if r and c % 2 == 0:
+            if r % 2 == 0:
                 L.append(r)
-                L.append(c)
                 count = count + 1
+            elif c % 2 == 0:
+                count = count + 1
+                L.append(c)
 
     print(count)
 
