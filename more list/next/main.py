@@ -8,6 +8,6 @@ L = [
     [7, 8, 9]
      ]
 
-count = sum([1 for r in range(5) for c in range(5) if L[r][c] % 2 == 0])
+count = sum([1 for r in range(5) for c in range(3) if L[r][c] % 2 == 0])
 
 print(count)
