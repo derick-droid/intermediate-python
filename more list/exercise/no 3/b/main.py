@@ -4,16 +4,11 @@
 
 
 def third():
-    L = []
     sentence = input("Enter a sentence:  ")
+    new_list = list(sentence.split(" "))
 
-    for item in sentence:
-        L.append(item)
-        print(item)
+    print(new_list[3])
 
-    print(L)
-
-    print(L[3])
 
 
 third()
