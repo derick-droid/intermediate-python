@@ -1,16 +1,16 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+"""
+Ask the user to enter a sentence and print out every third word of the sentence.
+"""
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def good():
+    word = input("Enter a sentence: ")
+    new_list = list(word.split(" "))
+    print(new_list)
+    print(new_list[4])
+    for i in range(0, len(word), 3):
+        print(i)
+        # print(new_list[i], end=" ")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+good()
