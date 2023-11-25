@@ -7,10 +7,10 @@ def good():
     word = input("Enter a sentence: ")
     new_list = list(word.split(" "))
     print(new_list)
-    print(new_list[4])
-    for i in range(0, len(word), 3):
-        print(i)
-        # print(new_list[i], end=" ")
+
+    for i in range(2, len(new_list), 3):
+
+        print(new_list[i], end=" ")
 
 
 good()
