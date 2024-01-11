@@ -43,26 +43,28 @@ number of drawings needed over the 1000 times the loop runs.
 #     main()
 
 import random
+#
+# def simulate_lottery(user_numbers):
+#     drawings = 0
+#     while True:
+#         drawings += 1
+#         lottery_numbers = random.sample(range(1, 11), 6)
+#         if lottery_numbers == user_numbers:
+#             break
+#     return drawings
+#
+# def main():
+#     total_drawings = 0
+#     simulations = 1000
+#
+#     for _ in range(simulations):
+#         user_numbers = random.sample(range(1, 11), 6)
+#         total_drawings += simulate_lottery(user_numbers)
+#
+#     average_drawings = total_drawings / simulations
+#     print(f"Average number of drawings needed: {average_drawings}")
+#
+# # if __name__ == "__main__":
+# #     main()
 
-def simulate_lottery(user_numbers):
-    drawings = 0
-    while True:
-        drawings += 1
-        lottery_numbers = random.sample(range(1, 11), 6)
-        if lottery_numbers == user_numbers:
-            break
-    return drawings
 
-def main():
-    total_drawings = 0
-    simulations = 1000
-
-    for _ in range(simulations):
-        user_numbers = random.sample(range(1, 11), 6)
-        total_drawings += simulate_lottery(user_numbers)
-
-    average_drawings = total_drawings / simulations
-    print(f"Average number of drawings needed: {average_drawings}")
-
-# if __name__ == "__main__":
-#     main()
