@@ -11,7 +11,7 @@ import random
 def hat_lottery():
     hat = []
 
-    for name in range(10):
+    for name in range(5):
         names = input("Enter name: ")
 
         hat.append(names)
