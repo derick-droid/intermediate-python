@@ -5,7 +5,7 @@ ask the questions one-by-one, and tell the player whether they got the question 
 wrong. At the end it should print out how many out of four they got right.
 
 """
-
+import random
 def list_quiz():
     list_question = ["What is the capital city of Kenya? ",
                      "Who is the current president of Tanzania? ",
